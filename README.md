@@ -41,10 +41,10 @@ May be protected by WAF or similar security filters
 
 
 ### Screenshot:2
- 
+![My Screenshot](Screenshot%202025-05-13%20074551.png)
 
 ### Screenshot:3
- 
+![My Screenshot](Screenshot%202025-05-13%20074601.png) 
 ### 7. Conclusion
 SQLMap successfully tested the login form but found no SQL injection vulnerabilities. The site appears secure against this specific attack. This task helped in learning how to conduct penetration testing using automated tools.
 
@@ -58,8 +58,9 @@ XSS Vulnerability Found
 Vulnerability Type: Reflected Cross-Site Scripting (XSS)
 Tested On: https://demo.testfire.net
 Input Field: Search box on homepage
-Screenshot:
- 
+### Screenshot:
+![My Screenshot](Screenshot%202025-05-13%20074611.png)  
+
 ### •	Payload Used:
 Html
 <script>alert("Arooj XSS")</script>
@@ -70,7 +71,7 @@ Html
 
 
 ### Screenshot:
- 
+![My Screenshot](Screenshot%202025-05-13%20074617.png) https://github.com/arooj2075/FUTURE_CS_01/blob/main/Screenshot%202025-05-13%20074617.png
 •	Risk: An attacker can steal session cookies, deface pages, or redirect users.
 •	Mitigation Suggestion: Sanitize and escape all user input in search fields using libraries or input validation.
 ### Authentication Flaw Identified
